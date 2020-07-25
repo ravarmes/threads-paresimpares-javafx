@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="336.0" prefWidth="447.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXMLDocumentController">
+   <children>
+      <Label layoutX="138.0" layoutY="14.0" text="Pares e ímpares até 1000000" />
+      <Button fx:id="buttonPares" layoutX="86.0" layoutY="72.0" mnemonicParsing="false" onAction="#handleButtonPares" prefHeight="25.0" prefWidth="59.0" text="Pares" />
+      <Button fx:id="buttonImpares" layoutX="280.0" layoutY="72.0" mnemonicParsing="false" onAction="#handleButtonImpares" text="Ímpares" />
+      <TextArea fx:id="textAreaPares" layoutX="43.0" layoutY="123.0" prefHeight="199.0" prefWidth="145.0" />
+      <TextArea fx:id="textAreaImpares" layoutX="237.0" layoutY="123.0" prefHeight="200.0" prefWidth="145.0" />
+   </children>
+</AnchorPane>
